@@ -4,7 +4,7 @@ jika kita mendevelop aplikasi berbasis web di golang dengan tidak menggunakan fr
 maka akan ada banyak fleksibilitas yang bisa kita peroleh. untuk mengingatkan kembali bahwa net/http mempunyai arsitektur 
 seperti yang terlihat di gambar berikut : 
 
-![](Screenshot_1.png)
+![](SS.png)
 
 kode standar dalam membuat aplikasi web di golang
 ```text
