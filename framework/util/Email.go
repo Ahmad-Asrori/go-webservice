@@ -5,9 +5,9 @@ import (
 )
 
 const CONFIG_SMTP_HOST = "smtp.gmail.com"
-const CONFIG_SMTP_PORT = 587
-const CONFIG_EMAIL = "fans.askingalexandria26@gmail.com"
-const CONFIG_PASSWORD = "tidaktahu"
+const CONFIG_SMTP_PORT = 465
+const CONFIG_EMAIL = "your_email"
+const CONFIG_PASSWORD = "your_password"
 
 func SendEmail(to, username, subject, activationCode string) error {
 	mailer := gomail.NewMessage()
